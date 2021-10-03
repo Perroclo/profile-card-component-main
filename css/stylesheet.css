@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+
+display: flex;
+justify-content: center;
+align-items:center;
+background-color: hsl(185, 75%, 39%);
+background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+background-repeat: no-repeat;	
+background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+height: 100vh;
+}
+
+
+.container{
+
+
+width: 330px;
+height:370px;
+border-radius: 10px;
+background-color: white;
+
+
+
+}
+
+.fondito .patern{
+
+	border-radius: 10px 10px 0px 0px;
+}
+
+.container .picture{
+
+display: flex;
+justify-content: center;
+margin-bottom: -22px;
+
+
+}
+
+
+
+.patern{
+
+width: 100%;
+
+}
+
+.picture .victor{
+
+	border-radius: 50px;
+	border: solid white 4px;
+	position: relative;
+	bottom:53px;
+}
+
+.container .datos-primarios{
+
+	text-align: center;
+	line-height: 24px;
+}
+
+.datos-primarios .name{
+
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: 700;
+font-size: 18px;
+
+}
+
+.datos-primarios .age{
+
+font-family: 'Kumbh Sans', sans-serif;	
+color: gray;
+}
+
+.datos-primarios .city{
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 15px;
+margin-bottom: 20px;
+color:gray;
+
+}
+
+.divisoria{
+
+	color: gray;
+
+}
+
+
+.container .datos-secundarios{
+
+    display: flex;
+    justify-content: space-around;
+margin-top: 25px;
+}
+
+.datos-secundarios .num{
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 16px;
+font-weight: 700;
+
+}
+
+.datos-secundarios .letras{
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 9px;
+text-align: center;
+
+
+}
+
+.attribution{
+position: relative;
+top: 32px;
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 15px;
+text-align: center;
+}
